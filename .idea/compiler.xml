@@ -25,14 +25,16 @@
         <module name="api" />
         <module name="common" />
         <module name="provider" />
+        <module name="service" />
         <module name="webConsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.7" />
-      <module name="MyGit_test" target="1.6" />
-      <module name="webConsumer" target="1.6" />
+      <module name="common" target="1.7" />
+      <module name="MyGit_test" target="1.5" />
+      <module name="service" target="1.7" />
+      <module name="webConsumer" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
-
