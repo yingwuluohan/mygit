@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyGit_test.iml" filepath="$PROJECT_DIR$/MyGit_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/service.iml" filepath="$PROJECT_DIR$/provider/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webConsumer/webConsumer.iml" filepath="$PROJECT_DIR$/webConsumer/webConsumer.iml" />
     </modules>
   </component>
 </project>
-

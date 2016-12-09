@@ -17,7 +17,22 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="api" />
+        <module name="common" />
+        <module name="provider" />
+        <module name="webConsumer" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.7" />
+      <module name="MyGit_test" target="1.6" />
+      <module name="webConsumer" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
